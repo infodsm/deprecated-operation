@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('fonts/NanumGothic.eot');
+    src: url('fonts/NanumGothic.eot?#iefix') format('embedded-opentype'), url('fonts/NanumGothic.woff') format('woff'), url('fonts/NanumGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumGothicB';
+    src: url('fonts/NanumGothicBold.eot');
+    src: url('fonts/NanumGothicBold.eot?#iefix') format('embedded-opentype'), url('fonts/NanumGothicBold.woff') format('woff'), url('fonts/NanumGothicBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 14px;
+    }
+    header h2 {
+        font-size: 45px;
+    }
+    header h4 {
+        font-size: 18px;
+    }
+    div#articleHeader h3 {
+        font-size: 25px;
+    }
+    div.jumbotron {
+        margin-top: 20px;
+    }
+    header img#logo {
+        width: 150px;
+    }
+    input[type="button"] {
+        font-size: 14px;
+    }
+    div[id$="ButtonGroup"] {
+        margin: -50px 5px 0px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    body {
+        font-size: 14px;
+    }
+    header h2 {
+        font-size: 40px;
+    }
+    header h4 {
+        font-size: 18px;
+    }
+    div#articleHeader h3 {
+        font-size: 23px;
+    }
+    div.jumbotron {
+        margin-top: 20px;
+    }
+    header img#logo {
+        width: 130px;
+    }
+    input[type="button"] {
+        font-size: 13px;
+    }
+    div[id$="ButtonGroup"] {
+        margin: -48px 5px 0px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 13px;
+    }
+    header h2 {
+        font-size: 35px;
+    }
+    header h4 {
+        font-size: 16px;
+    }
+    div#articleHeader h3 {
+        font-size: 22px;
+    }
+    div.jumbotron {
+        margin-top: 15px;
+    }
+    header img#logo {
+        width: 110px;
+    }
+    input[type="button"] {
+        font-size: 11px;
+    }
+    div[id$="ButtonGroup"] {
+        margin: -48px 5px 0px 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 13px;
+    }
+    header h2 {
+        font-size: 25px;
+    }
+    header h4 {
+        font-size: 15px;
+    }
+    div#articleHeader h3 {
+        font-size: 21px;
+    }
+    div.jumbotron {
+        margin-top: 15px;
+    }
+    header img#logo {
+        width: 100px;
+    }
+    input[type="button"] {
+        font-size: 10px;
+    }
+    div[id$="ButtonGroup"] {
+        margin: -48px 5px 0px 0px;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    font-family: "NanumGothic";
+}
+
+body {
+    background-image: url('/images/background.jpg');
+    background-size: 100%;
+    margin-bottom: 0px;
+}
+
+div.container {
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header a#title {
+    font-family: "NanumGothicB";
+    text-decoration: none;
+    color: #003f86;
+    transition: 1.5s;
+}
+
+header a#title:hover {
+    color: #3394fb;
+}
+
+nav * {
+    text-align: center;
+    margin: auto;
+}
+
+nav ul {
+    margin-top: 30px;
+}
+
+nav div#navLogin {
+    display: table;
+    height: 140px;
+    width: 100%;
+    padding: 19px;
+    border: 1px solid #3394fb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+nav div#navLogin>div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+article div#articleHeader {
+    margin: 5px;
+}
+
+article div#articleText {
+    margin: 20px 10px 10px 10px;
+}
+
+article div.btn-group {
+    float: right;
+}
+
+ul#pagination {
+    margin-left: 20px;
+}
+
+
+/* write*.php, edit*.php */
+
+div#articleText form input[id$="month"], div#articleText form input[id$="day"] {
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+    display: inline-block;
+}
+
+div#articleText form[id^="edit"] input[id$="student"], div#articleText form[id^="edit"] input[id$="amount"], div#articleText form[id^="edit"] input[id$="description"], div#articleText form[id^="edit"] input[id$="title"], div#articleText form[id^="edit"] input[id$="subject"], div#articleText form[id^="edit"] textarea {
+    width: 50%;
+    display: inline-block;
+}
+
+
+/* freeboard.php */
+
+div#noComments {
+    text-align: center;
+    color: #808080;
+    font-size: 30px;
+}
+
+form#writeCommentForm {
+    text-align: center;
+}
+
+form#writeCommentForm input[type="text"], form#editCommentForm input[type="text"] {
+    width: 80%;
+    display: inline-block;
+}
+
+form#writeCommentForm input[type="button"], form#editCommentForm input[type="button"] {
+    display: inline-block;
+    margin: 6px 0px 10px 10px;
+}
+
+article div#articleText p#fbName, article div#freeboardText p#fbCreated {
+    text-align: right;
+}
+
+article div#freeboardText {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+article div#freeboardTable *, article div#assignmentTable *, table#freeboardCommentTable * {
+    text-align: center;
+}

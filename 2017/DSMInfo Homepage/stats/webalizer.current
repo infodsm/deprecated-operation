@@ -1,0 +1,193 @@
+# Webalizer V2.23-08 Incremental Data - 04/05/2017 22:27:16
+2017 4 5 22 27 16
+137 122 6 16 9 4 45425090 79 11 0 0 0
+1 4 32 1 5
+40 38 18101327 3 23 3 0 0
+65 57 27188825 4 35 4 0 0
+2 2 22717 2 1 1 0 0
+28 23 89505 2 19 2 0 0
+2 2 22716 1 1 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+21 18 9052731 9 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+32 27 9072043 24 0 0
+2 2 22717 1 0 0
+0 0 0 0 0 0
+26 21 66789 18 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 2 22717 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+20 19 9040495 12 0 0
+12 12 9064051 2 0 0
+0 0 0 0 0 0
+22 21 9083547 12 0 0
+0 0 0 0 0 0
+0
+0
+0
+122
+0
+0
+0
+0
+0
+0
+0
+0
+8
+0
+4
+0
+0
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/Assignment/assignment.php
+0 6 28558752 9527 0 0 0 0
+/fonts/NanumGothicBold.woff
+0 6 0 12178598 0 0 0 0
+/style.css
+0 6 0 8952 0 0 0 0
+/images/pavicon128.jpg
+1 7 0 146436 0 0 0 0
+/images/logo.png
+1 6 0 171887 0 0 0 0
+/Account/editMyInfo.php
+0 4 0 6347 0 0 0 0
+/fonts/NanumGothic.woff
+0 6 0 11909298 0 0 0 0
+/bootstrap-3.3.4-dist/css/bootstrap.min.css
+0 6 0 117252 0 0 0 0
+/Freeboard/editComment.php
+0 2 0 4610 0 0 0 0
+/bootstrap-3.3.4-dist/js/bootstrap.min.js
+0 6 0 59341 0 0 0 0
+/images/background.jpg
+1 6 0 20672443 0 0 0 0
+/
+0 22 0 39289 11 4 0 0
+/Freeboard/freeboard.php
+0 18 0 33316 0 1 0 0
+/Account/login.php
+0 8 0 12970 0 0 0 0
+/Account/myInfo.php
+0 11 0 17112 0 1 0 0
+/script.js
+0 6 7887285227226794607 8370 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+14.50.190.136
+0 80 73 36191987 4 1491163503 0 0
+/
+64.233.172.140
+0 5 5 47230 3 1491344507 0 0
+/
+64.233.172.144
+0 1 1 20920 0 0 0 0
+-
+58.230.163.12
+0 21 18 9052731 1 1491093603 0 0
+/
+64.233.172.142
+0 4 4 45433 2 1491431236 0 0
+/
+14.50.190.138
+0 26 21 66789 1 1491313863 0 0
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+64.233.172.142
+0 2 2 22716 1 1491431236 0 0
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://info.infre.kr/Freeboard/editComment.php
+1 4
+http://info.infre.kr/style.css
+1 18
+http://info.infre.kr/Account/login.php
+1 12
+http://info.infre.kr/Account/myInfo.php
+1 11
+http://info.infre.kr/Freeboard/freeboard.php
+1 20
+http://info.infre.kr/Account/editMyInfo.php
+1 4
+http://info.infre.kr/Assignment/assignment.php
+1 7
+- (Direct Request)
+0 19
+http://info.infre.kr/
+1 42
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+0 36
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+0 21
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36
+0 70
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
+0 10
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
