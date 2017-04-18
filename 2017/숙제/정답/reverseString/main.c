@@ -1,19 +1,22 @@
 #include <stdio.h>
+#include <string.h>
 #define MAX_LEN 20
 
 int main() {
-    int index = 0;
-    char str[MAX_LEN];
-    char c = 0;
+    int i = 0;
+    int length = 0;
+    char str[MAX_LEN] = {0};
+    char after[MAX_LEN] = {0};
 
-    scanf("%s %c", str, &c);
+    printf("문자열 입력 >> ");
+    scanf("%s", str);
+    length = strlen(str);
 
-    while(str[index] != '\0') {
-        if(str[index]==c){
-            break;
-        }
-        index++;
+    for (i = 0; i < length; i++) {
+        after[i] = str[((length - i) - 1)];
     }
+    after[length] = '\0';
 
-    printf("%d\n", index);
+    printf("%s\n", after);
+    return 0;
 }

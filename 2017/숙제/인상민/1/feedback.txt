@@ -1,0 +1,8 @@
+changeString.c
+
+코드 복잡함
+더 간단한 알고리즘 생각해보길
+
+reverseString.c
+
+문자 단위로 출력 말고 문자열로 출력하는 방법
