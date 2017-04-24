@@ -40,5 +40,5 @@ void delPhoneNum(int number)
 최대 10명까지
 최대 20바이트
 
-제출기한 : 2017년 4월 20일 목요일 20시 30분까지
+제출기한 : 2017년 4월 27일 목요일 20시 30분까지
 이메일 주소 : infreljs@gmail.com
