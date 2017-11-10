@@ -22,6 +22,6 @@ preg_match로 인해 .과()이 id와 pw에 들어가 있으면 No Hack ~_~ 라�
 
 문제 풀이법
 -------------
-1) id값에 admin을 넣어준다.
+1. id값에 admin을 넣어준다.
 http://los.eagle-jump.org/cobolt_ee003e254d2fe4fa6cc9505f89e44620.php?id=admin'-- -
 싱글쿼터로 admin에서 받는값을 끝내주고 뒤에 pw를 입력하지 않고 뚫기 위해 주석처리를 해준다.

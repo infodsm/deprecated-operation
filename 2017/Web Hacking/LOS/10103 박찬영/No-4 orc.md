@@ -24,7 +24,7 @@ preg_match로 인해 . ()가 $_GET[pw]에 들어 있으면 No Hack ~_~이 뜨면
 
 문제 풀이 법
 -------------
-1)블라인드 인젝션
+1.블라인드 인젝션
 이 문제는 다음과 같은 파이썬 코드를 이용하여 풀 수 있다.
 ```
 import urllib.request # urllib에서 request모듈을 불러온다.
@@ -71,3 +71,4 @@ for i in range(1, pwlen+1): #range는 두번째 입력한 숫자의 -1까지 돌
             break
 print("비밀번호는",key)
 ```
+결과 값으로 295d5844를 추출할 수 있다.

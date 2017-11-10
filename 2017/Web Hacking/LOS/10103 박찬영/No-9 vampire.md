@@ -22,7 +22,7 @@ DB에 전달된 아이디가 admin이면 풀린다.
 
 문제 풀이 법
 -------------
-1)str_replace 우회
+1. str_replace 우회
 str_replace는 preg_match랑 비슷한 역할을 하는데 찾아서 특정 숫자를 반환하는 것이 아니라 찾아서
 특정한 문자열로 바꾸어준다.
 str_replace는 대소문자를 구분하기 때문에 admin에서 철자 하나만 대문자가 되면 str_replace를

@@ -24,8 +24,8 @@ DB에 저장된 id 값이 admin이 되도록 조작하면 문제가 풀린다.
 
 문제 풀이 법
 -------------
-1)or and 우회
+1.or and 우회
 or은 기호로 파이프라인 두개와 같고(||) and는 기호로 앤퍼센트 두개와 같다.(&&)
 
-los.eagle-jump.org/darkelf_6e50323a0bfccc2f3daf4df731651f75.php?pw=123'|| id='admin'-- -
-or이 들어갈 부분을 ||으로 대체
+  los.eagle-jump.org/darkelf_6e50323a0bfccc2f3daf4df731651f75.php?pw=123'|| id='admin'-- -
+  or이 들어갈 부분을 ||으로 대체

@@ -23,7 +23,7 @@ $result['id']가 admin이면 문제가 풀리는 것을 알 수 있다.
 
 문제 풀이 법
 -------------
-1) Limit 구문 활용
+1. Limit 구문 활용
 http://los.eagle-jump.org/goblin_5559aacf2617d21ebb6efe907b7dded8.php?no=2%20or%201=1%20limit%201,1
 id값이 guest로 고정 되어 있으므로 값을 입력할수있는 no에 값을 입력해서 뚫어야한다.
 no에 아무 값을 넣어주고 참이 되게 만들어준후 limit구문을 써준다.
