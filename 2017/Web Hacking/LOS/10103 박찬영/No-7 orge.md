@@ -1,4 +1,5 @@
 Lord of SQL Injection No.7 - orge
+=============
 ```
 <?php
   include "./config.php";
@@ -19,12 +20,14 @@ Lord of SQL Injection No.7 - orge
 ?>
 ```
 위 문제에서 알 수 있는 것
+-------------
 preg_match로 인해 . ()가 $_GET[pw]에 들어 있으면 No Hack ~_~이 뜨면서 문제풀이에 실패하게 된다.
 preg_match로 인해 or and가 대소문자 구분없이 $_GET[pw]에 들어가 있으면 HeHe라고 뜨며 문제풀이에 실패하게 된다._
 DB에 저장된 id 값이 admin이 되면 Hello admin이 뜬다.
 DB에 저장된 비번과 입력한 비번이 같으면 문제가 풀리게 된다.
 
 문제 풀이 법
+-------------
 1)블라인드 인젝션
 이 문제는 다음과 같은 파이썬 코드를 이용하여 푼다.
 ```

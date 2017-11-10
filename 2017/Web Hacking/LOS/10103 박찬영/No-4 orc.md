@@ -1,4 +1,5 @@
 Lord of SQL Injection No.4 - orc
+=============
 ```
 <?php
   include "./config.php";
@@ -17,10 +18,12 @@ Lord of SQL Injection No.4 - orc
 ?>
 ```
 위 문제에서 알 수 있는 것
+-------------
 preg_match로 인해 . ()가 $_GET[pw]에 들어 있으면 No Hack ~_~이 뜨면서 문제풀이에 실패하게 된다.
 받은 pw값과 DB에 저장된 pw값이 같으면 문제가 풀리게된다는 것을 알 수 있다.
 
 문제 풀이 법
+-------------
 1)블라인드 인젝션
 이 문제는 다음과 같은 파이썬 코드를 이용하여 풀 수 있다.
 ```
