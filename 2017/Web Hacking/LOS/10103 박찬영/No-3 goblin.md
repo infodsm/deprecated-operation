@@ -1,5 +1,5 @@
 Lord of SQL Injection No.3 - goblin
-...
+```
 <?php
   include "./config.php";
   login_chk();
@@ -13,7 +13,7 @@ Lord of SQL Injection No.3 - goblin
   if($result['id'] == 'admin') solve("goblin");
   highlight_file(__FILE__);
 ?>
-...
+```
 위 문제에서 알 수 있는 것
 preg_match에 의해 $_GET[no]값에 . ()가 들어가면 No Hack ~_~가 뜨면서 문제풀이에 실패하는 것을 알 수 있다.
 또한 $_GET[no]값에 ' " `가 들어가면 No Qutes ~_~가 뜨면서 문제풀이에 실패하는 것을 알 수 있다.

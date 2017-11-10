@@ -1,5 +1,5 @@
 Lord of SQL Injection No.5 - wolfman
-...
+```
 
 <?php
   include "./config.php";
@@ -14,7 +14,7 @@ Lord of SQL Injection No.5 - wolfman
   if($result['id'] == 'admin') solve("wolfman");
   highlight_file(__FILE__);
 ?>
-...
+```
 위 문제에서 알 수 있는 것
 preg_match로 인해 . ()가 $_GET[pw]에 들어 있으면 No Hack ~_~이 뜨면서 문제풀이에 실패하게 된다.
 preg_match로 인해 공백이 $_GET[pw]에 들어 있으면 No whitespace ~_~가 뜨면서 문제풀이에 실패하게 된다.

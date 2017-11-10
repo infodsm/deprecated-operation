@@ -1,5 +1,5 @@
 Lord of SQL Injection No.8 - troll
-...
+```
 <?php  
   include "./config.php";
   login_chk();
@@ -12,7 +12,7 @@ Lord of SQL Injection No.8 - troll
   if($result['id'] == 'admin') solve("troll");
   highlight_file(__FILE__);
 ?>
-...
+```
 위 문제에서 알 수 있는 것
 preg_match로 인해 싱글쿼터가 $_GET[id]에 들어 있으면 No Hack ~_~이 뜨면서 문제풀이에 실패하게 된다.
 ereg로 인해 admin이 $_GET[id]에 들어있으면 HeHe가 뜨면서 문제 풀이에 실패하게 된다._

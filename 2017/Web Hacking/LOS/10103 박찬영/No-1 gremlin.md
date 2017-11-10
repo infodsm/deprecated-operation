@@ -1,5 +1,5 @@
 Lord of SQL Injection No.1 - gremlin
-...
+```
 <?php
   include "./config.php";
   login_chk();
@@ -12,7 +12,7 @@ Lord of SQL Injection No.1 - gremlin
   if($result['id']) solve("gremlin");
   highlight_file(__FILE__);
 ?>
-...
+```
 위 코드에서 알수 있는 것
 4번째와 5번째줄 if문의 preg_match에서 id와 pw에 . 이나 ()가 들어가있으며 No Hack ~_~라고 뜨고 문제 풀이에 실패하게되는걸 알수있다.
 DB에 저장되있는 값인 $result[id]에 어떠한 값이라도 들어가 있으면 문제를 풀수있다.

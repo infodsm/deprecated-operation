@@ -1,5 +1,5 @@
 Lord of SQL Injection No.2 - cobolt
-...
+```
 <?php
   include "./config.php";
   login_chk();
@@ -13,7 +13,7 @@ Lord of SQL Injection No.2 - cobolt
   elseif($result['id']) echo "<h2>Hello {$result['id']}<br>You are not admin :(</h2>";
   highlight_file(__FILE__);
 ?>
-...
+```
 위 코드에서 알 수 있는 것
 preg_match로 인해 .과()이 id와 pw에 들어가 있으면 No Hack ~_~ 라고 뜨며 문제풀이에 실패하는 것을 알 수있다.
 그리고 $result['id']에 admin이 들어가 있으면 문제풀이에 성공하는 것을 알 수 있다.(9번째줄)

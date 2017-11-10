@@ -1,5 +1,5 @@
 Lord of SQL Injection No.6 - darkelf
-...
+```
 <?php
   include "./config.php";
   login_chk();
@@ -13,7 +13,7 @@ Lord of SQL Injection No.6 - darkelf
   if($result['id'] == 'admin') solve("darkelf");
   highlight_file(__FILE__);
 ?>
-...
+```
 위 문제에서 알 수 있는 것
 preg_match로 인해 . ()가 $_GET[pw]에 들어 있으면 No Hack ~_~이 뜨면서 문제풀이에 실패하게 된다.
 preg_match로 인해 or and가 대소문자 구분없이 $_GET[pw]에 들어가 있으면 HeHe라고 뜨며 문제풀이에 실패하게 된다._
