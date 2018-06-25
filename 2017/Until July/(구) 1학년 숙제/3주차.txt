@@ -1,0 +1,22 @@
+Chapter 09 C언어의 핵심! 함수!, Chapter 11 1차원 배열, Chapter 12 포인터의 이해, Chapter 13 포인터와 배열! 함께 이해하기
+
+문자열 거꾸로 출력하는 프로그램 만들기 (포인터, 1차원 배열)
+
+입력 예시 :
+Apple
+
+출력 예시 :
+elppA
+
+
+문자열 치환 프로그램
+
+입력 예시 :
+Hello,Hello,World! el abc
+
+출력 예시 :
+Habclo,Habclo,World!
+
+
+제출기한 : 2017년 4월 20일 목요일 20시 30분까지
+이메일 주소 : infreljs@gmail.com
